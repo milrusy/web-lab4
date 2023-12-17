@@ -43,8 +43,6 @@ main {
     font-weight: 700;
     text-align: center;
     margin-top: 40px;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 #secondtext{
@@ -170,7 +168,7 @@ main {
     background: linear-gradient(to top, #863493, #39d7ff);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 100px) {
     header {
         min-height: 100px;
         padding-left: 10%;
@@ -212,8 +210,9 @@ main {
     }
     #maintext {
         font-size: 80px;
-        margin-left: 70px;
-        margin-right: 70px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: 10px;
     }
     #secondtext {
         font-size: 24px;
